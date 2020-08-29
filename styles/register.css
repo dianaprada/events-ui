@@ -1,0 +1,29 @@
+body { 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+}
+
+.error, .success{  
+  color: white;
+  width: 300px;
+  height: 100px;
+  border-radius: 7px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}

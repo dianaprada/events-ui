@@ -1,0 +1,14 @@
+button { cursor: pointer; }
+
+.main-container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-btn {
+  width: 200px;
+  margin: 0 20px;
+}
